@@ -1,0 +1,225 @@
+.HA_logo{
+	width: 35px;
+	height: 35px;
+}
+
+#emailicon{
+	color: black;
+	font-size: 20px;
+}
+
+#linkedinicon{
+	font-size: 22px;
+}
+
+#githubicon{
+	font-size: 22px;
+}
+/*INDEX PAGE*/
+
+
+
+#indextext{
+	margin-top: 340px;
+	text-align: center;
+}
+
+#index{
+	background-image: url(webdev.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+html{
+	height: 100%;
+}
+
+
+#index .bg-custom{
+	background-color: transparent;
+}
+
+#index .navbar-dark .navbar-nav .nav-link{
+	color: black;
+}
+
+#index .navbar{
+	text-transform: uppercase;
+	font-size: 20px;
+	font-family: 'Passion One', cursive;
+}
+
+#index h1{
+	font-size: 4rem;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+				 0px 8px 13px rgba(0,0,0,0.1),
+				 0px 18px 23px rgba(0,0,0,0.1);
+}
+
+#index #indextext{
+	color: black;
+	font-family: 'Passion One', cursive;
+	font-size: 2.5rem;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+				 0px 8px 13px rgba(0,0,0,0.1),
+				 0px 18px 23px rgba(0,0,0,0.1);
+}
+
+
+
+/*ABOUT PAGE*/
+
+/*#about .bg-custom{
+	background-color: black;
+}
+
+#about .navbar-dark .navbar-nav .nav-link{
+	color: #ffffff;
+}
+
+#about .navbar{
+	text-transform: uppercase;
+	font-size: 20px;
+	font-family: 'Passion One', cursive;
+}
+
+#about html{
+	height: 100%;
+}
+#about{
+	background-image: url(aboutimage.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+
+}
+
+#about #aboutdescription{
+	margin-top: 4%;
+	color: #ffffff;
+	font-size: 1.5rem;
+	font-family: 'Passion One', cursive;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+				 0px 8px 13px rgba(0,0,0,0.1),
+				 0px 18px 23px rgba(0,0,0,0.1);
+}
+
+#about #aboutdescription h1{
+	text-align: center;
+	text-decoration: underline;
+	font-family: 'Passion One', cursive;
+	font-size: 3rem;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+				 0px 8px 13px rgba(0,0,0,0.1),
+				 0px 18px 23px rgba(0,0,0,0.1);
+}
+
+#about #personalphoto{
+
+	width: 100%;
+}
+*/
+/*RESUME PAGE*/
+
+#resume{
+	background-image: url(resumeimage.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+}
+
+#resume html{
+	height: 100%;
+}
+#resume .bg-custom{
+	background-color: transparent;
+}
+
+#resume .navbar-dark .navbar-nav .nav-link{
+	color: black;
+}
+
+#resume .navbar{
+	text-transform: uppercase;
+	font-size: 20px;
+	font-family: 'Passion One', cursive;
+}
+
+#resume .container-fluid{
+	margin-top: 30px;
+	margin-left: 15px;
+	text-align: left;
+	color: black;
+}
+
+#resume hr{
+	background-color: black;
+}
+
+#resume .schoolname{
+	font-size: 1.5rem;
+	margin-bottom: 0;
+
+}
+
+#resume .degreename{
+	font-weight: 700;
+	margin-bottom: 0;
+}
+
+#resume .schoolyear{
+	font-size: .85rem;
+	font-weight: 700;
+}
+
+#resume .Synopsis{
+	margin-bottom: 0;
+}
+
+#resume .btn-outline-dark{
+	color: black;
+	border-color: black;
+	display: block;
+	margin: 0 auto;
+}
+
+/*PORTFOLIO PAGE*/
+
+#portfolio{
+	background-image: url(portfolioimage.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+}
+
+#portfolio html{
+	height: 100%;
+}
+#portfolio .bg-custom{
+	background-color: transparent;
+}
+
+#portfolio .navbar-dark .navbar-nav .nav-link{
+	color: black;
+}
+
+#portfolio .navbar{
+	text-transform: uppercase;
+	font-size: 20px;
+	font-family: 'Passion One', cursive;
+}
+
+#portfolio .container{
+	margin-top: 20px;
+	background-color: transparent;
+
+}
+
+#portfolio .row{
+	height: 100%;
+}
+
+#portfolio .caption{
+	color: black;
+	text-align: center;
+}
