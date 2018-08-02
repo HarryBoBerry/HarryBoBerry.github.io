@@ -1,0 +1,89 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family:'Gaegu', cursive;
+  font-size: 16px;
+}
+
+html{
+  background-color: #fff;
+}
+.topimg{
+  background-image: url(../imgs/masthead.jpg);
+  min-height: 100%;
+}
+
+.midimg1{
+  background-image: url(../imgs/services.jpg);
+  min-height: 400px;
+}
+
+.midimg2{
+  background-image: url(../imgs/customer.jpg);
+  min-height: 400px;
+}
+
+.midimg1, .midimg2, .topimg{
+  background-size: cover;
+  margin: 0;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: .80;
+} 
+
+.toptext, .servicestext, .customertext{
+  font-size: 5rem;
+  position: relative;
+  text-align: center;
+  color: black;
+  font-weight: 700;
+  letter-spacing: 8px;
+}
+
+.toptext{
+    padding-top: 330px;
+    text-shadow: 3px 3px white;
+}
+
+.servicestext{
+  padding-top: 130px;
+  color: #fafafe;
+  text-shadow: 3px 3px black;
+}
+
+.customertext{
+  padding-top: 130px;
+  color: #fafafe;
+  text-shadow: 3px 3px black;
+}
+
+.section{
+  text-align: center;
+  background-color: #fff;
+  margin:0;
+  color: black;
+}
+
+.texthead{
+  text-decoration: underline;
+}
+
+.navabar-dark{
+  background-color: black;
+}
+
+.foot{
+  text-align: center;
+  color: #fafafe;
+  background-color: rgba(0,0,0,0.7);
+}
+
+.customerdiv{
+   margin-bottom: 30px;
+}
+
+.quotes{
+  margin-top: 15px;
+}
